@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login Into The Facebook Application",
+        "description": "",
+        "id": "to-post-some-pictures-in-the-facebook-app;login-into-the-facebook-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3787578400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Launch The Facebook App",
+            "match": {
+              "location": "step_def.user_Launch_The_Facebook_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119919600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Enter The User Name In The User Name Field",
+            "match": {
+              "location": "step_def.user_Enter_The_User_Name_In_The_User_Name_Field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103236800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Enter The Password In The Password Box",
+            "match": {
+              "location": "step_def.user_Enter_The_Password_In_The_Password_Box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101872900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Click The Login Button And It Navigates To The Profile Page",
+            "match": {
+              "location": "step_def.user_Click_The_Login_Button_And_It_Navigates_To_The_Profile_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "To Post Some Pictures In The Facebook App",
+    "description": "",
+    "id": "to-post-some-pictures-in-the-facebook-app",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/facebook/feature/Facebook.Feature"
+  }
+]
